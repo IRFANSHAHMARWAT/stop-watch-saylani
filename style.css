@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+div#stopwatch {
+    border-radius: 12px;
+    padding: 2%;
+    border: 0;
+    background: #083344;
+    box-shadow: 5px 5px 10px #0198ff, -5px -5px 10px #4c0fe2;
+}
+div#sw-time {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background: #62d8f3;
+    box-shadow: 20px 20px 60px #28d807, -20px -20px 60px #d21615;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3px;
+    font-size: 2rem;
+    text-shadow: -8px -5px 9px black;
+}
+button#sw-rst, button#sw-go {
+	margin: 50px 20px 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 0;
+    background: #F4D4C9;
+    box-shadow: 20px 20px 60px #cfb4ab, -20px -20px 60px #fff4e7;
+    color: #615e5e;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button#sw-rst:focus, button#sw-go:focus{
+	outline: none;
+}
+button#sw-rst:hover, button#sw-go:hover{
+	color: #fff;
+}
